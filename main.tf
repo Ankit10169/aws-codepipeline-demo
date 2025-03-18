@@ -104,5 +104,4 @@ resource "aws_route_table_association" "private_2" {
   subnet_id      = aws_subnet.private_subnet_2.id
   route_table_id = aws_route_table.private.id
 }
-# Associate the private subnets with the private route table (No internet route)
 
